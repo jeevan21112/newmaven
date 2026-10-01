@@ -1,6 +1,6 @@
 name: Maven Build
 
-on:	 	
+on:
   push:
     branches: ["main"]
   pull_request:
@@ -9,8 +9,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: checkout source code
+      - name: Checkout source code
         uses: actions/checkout@v4
 
       - name: Set up Java
