@@ -14,7 +14,7 @@ public class replace {
 	
 	public static boolean isPass(double average)
 	{
-		return average >= 30.0;
+		return average >= 34.0;
 	}
 
 	public static void main(String[] args) {
